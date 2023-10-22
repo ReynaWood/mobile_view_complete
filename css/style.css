@@ -171,6 +171,37 @@ img, video{
     }
 }
 
+@media only screen and (max-width:550px){
+
+    .divimg{
+        /* so wish I could use a flexbox here instead :( */
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        grid-template-rows: auto auto auto auto;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+
+    .divimg{
+        /* so wish I could use a flexbox here instead :( */
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    nav a{
+        padding:5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 @media (prefers-reduced-motion: reduce){
     *{
         animation: none;
