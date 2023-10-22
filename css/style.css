@@ -171,7 +171,7 @@ img, video{
     }
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:700px){
 
     .divimg{
         /* so wish I could use a flexbox here instead :( */
